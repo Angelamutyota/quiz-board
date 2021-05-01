@@ -15,9 +15,9 @@
         </div>
       </div>
     <div class="container-fluid">
-        <div class="card" id="quizform">
-         <p><strong>1.</strong>Inside which HTML element do we put the java script?</p>
-         <form>
+        <div class="card" id="quizform" style = "background-color: linen;" >
+         <p><strong>1.</strong>Inside which HTML element do we put the java script? (5 marks)</p>
+         <form id="quiz1">
            <input type="radio" id="scripting" name="scripting1" value="scripting">
            <label for="male"> scripting </label><br>
            <input type="radio" id="script" name="script1" value="script">
@@ -27,8 +27,8 @@
            <input type="radio" id="javascript" name="javascript1" value="javascript">
            <label for="other"> JavaScript </label>
          </form>
-         <p><strong>2.</strong> How do you write "Hello World" in an alert box?</p>
-          <form>
+         <p><strong>2.</strong> How do you write "Hello World" in an alert box? (5 marks)</p>
+          <form id="quiz2">
             <input type="radio" id="alert" name="alert1" value="alert">
             <label for="male"> alert("Hello World") </label><br>
             <input type="radio" id="alertbox" name="alertbox1" value="alertbox">
@@ -38,8 +38,8 @@
             <input type="radio" id="msgbox" name="msgbox1" value="msgbox">
             <label for="other"> msgBox ("Hello World") </label>
           </form>
-         <p><strong>3.</strong> How do you create a function in JavaScript?</p>
-          <form>
+         <p><strong>3.</strong> How do you create a function in JavaScript? (5 marks)</p>
+          <form id="quiz3">
             <input type="radio" id="answer1" name="answer11" value="answer1">
             <label for="male"> function:myFunction() </label><br>
             <input type="radio" id="answer2" name="answer22" value="answer3">
@@ -49,8 +49,8 @@
             <input type="radio" id="answer4" name="answer44" value="answer34">
             <label for="other"> function, myFunction </label>
           </form>
-         <P>4.</strong> How do you write an IF statement in JavaScript?</p>
-          <form>
+         <P>4.</strong> How do you write an IF statement in JavaScript? (5 marks)</p>
+          <form id="quiz4">
               <input type="radio" id="statement1" name="statement11" value="statement1">
               <label for="male"> if i = 55 then </label><br>
               <input type="radio" id="statement2" name="statement22" value="statement2">
@@ -60,81 +60,79 @@
               <input type="radio" id="statement4" name="statement44" value="statement4">
               <label for="other"> if i = 5 </label>
             </form>
-            <p><strong>5.</strong> How do you add a comment in a javascript?</p>
-            <form>
-                <input type="radio" id="comment1" name="comment11" value="commentq">
+            <p><strong>5.</strong> How do you add a comment in a javascript? (5 marks)</p>
+            <form id="quiz5">
+                <input type="radio" id="comment1" name="comment11" value="comment1">
                 <label for="male"> //This is a comment </label><br>
-                <input type="radio" id="female" name="gender" value="female">
+                <input type="radio" id="comment2" name="comment22" value="comment2">
                 <label for="female"> !--This is a comment-->> </script></label><br>
-                <input type="radio" id="other" name="gender" value="other">
+                <input type="radio" id="comment3" name="comment33" value="comment3">
                 <label for="other"> 'This is a comment' </label><br>
-                <input type="radio" id="other" name="gender" value="other">
+                <input type="radio" id="comment4" name="comment44" value="comment4">
                 <label for="other"> This is a comment </label>
               </form>
-              <p><strong>6.</strong> What is the correct way to write a JavaScript array?</p>
-              <form>
-                  <input type="radio" id="male" name="gender" value="male">
+              <p><strong>6.</strong> What is the correct way to write a JavaScript array? (5 marks)</p>
+              <form id="quiz6">
+                  <input type="radio" id="var1" name="variable1" value="var1">
                   <label for="male"> var colors = 1 = ("red"), 2 = ("green") 3 = ("blue") </label><br>
-                  <input type="radio" id="female" name="gender" value="female">
+                  <input type="radio" id="var2" name="variable2" value="var2">
                   <label for="female"> var colors = "red", "green", "blue"</script></label><br>
-                  <input type="radio" id="other" name="gender" value="other">
+                  <input type="radio" id="var3" name="variable3" value="var3">
                   <label for="other"> var colors = ["red", "green", "blue"] </label><br>
-                  <input type="radio" id="other" name="gender" value="other">
+                  <input type="radio" id="var4" name="variable4" value="var4">
                   <label for="other"> var colors = (1:"red", 2:"green", 3:"blue") </label>
                 </form>
-                <p><strong>7.</strong> What is the correct syntax for referring to an external script called "ascript.js"?</p>
-                <form>
-                    <input type="radio" id="male" name="gender" value="male">
+                <p><strong>7.</strong> What is the correct syntax for referring to an external script called "ascript.js"? (5 marks)</p>
+                <form id="quiz7">
+                    <input type="radio" id="src" name="src1" value="src">
                     <label for="male">  script src = "ascript.js" </label><br>
-                    <input type="radio" id="female" name="gender" value="female">
+                    <input type="radio" id="name" name="name1" value="name">
                     <label for="female"> script name = "ascript.js" </script></label><br>
-                    <input type="radio" id="other" name="gender" value="other">
+                    <input type="radio" id="href" name="href1" value="href">
                     <label for="other"> script href = "ascript.js" </label><br>
-                    <input type="radio" id="other" name="gender" value="other">
+                    <input type="radio" id="equals" name="equals1" value="equals">
                     <label for="other"> script = " ascript.js"</label>
                   </form>
-                  <p><strong>8.</strong> Which event occurs when the user clicks on an HTML element?</p>
-                  <form>
-                      <input type="radio" id="male" name="gender" value="male">
+                  <p><strong>8.</strong> Which event occurs when the user clicks on an HTML element? (5 marks)</p>
+                  <form id="quiz8">
+                      <input type="radio" id="mouseover" name="mouseover1" value="mouseover">
                       <label for="male"> onmouseover </label><br>
-                      <input type="radio" id="female" name="gender" value="female">
+                      <input type="radio" id="mouseclick" name="mouseclick1" value="mouseclick">
                       <label for="female"> onmouseclick </script></label><br>
-                      <input type="radio" id="other" name="gender" value="other">
+                      <input type="radio" id="onclick" name="onclick1" value="onclick">
                       <label for="other"> onclick </label><br>
-                      <input type="radio" id="other" name="gender" value="other">
+                      <input type="radio" id="onchange" name="onchange1" value="onchange">
                       <label for="other"> onchange </label>
                     </form>
-                    <p><strong>9.</strong> How do you declare a JavaScript variable?</p>
-                    <form>
-                        <input type="radio" id="male" name="gender" value="male">
+                    <p><strong>9.</strong> How do you declare a JavaScript variable? (5 marks)</p>
+                    <form id="quiz9">
+                        <input type="radio" id="declare1" name="declare11" value="declare1">
                         <label for="male"> variable carName; </label><br>
-                        <input type="radio" id="female" name="gender" value="female">
+                        <input type="radio" id="declare2" name="declare22" value="declare2">
                         <label for="female"> var carName; </script></label><br>
-                        <input type="radio" id="other" name="gender" value="other">
+                        <input type="radio" id="declare3" name="declare33" value="declare3">
                         <label for="other"> v carName; </label><br>
-                        <input type="radio" id="other" name="gender" value="other">
+                        <input type="radio" id="declare4" name="declare44" value="declare4">
                         <label for="other"> "carName" </label>
                       </form>
-                      <p><strong>10.</strong> Which operator is used to assign a variable?</p>
-                      <form>
-                          <input type="radio" id="male" name="gender" value="male">
+                      <p><strong>10.</strong> Which operator is used to assign a variable? (5 marks)</p>
+                      <form id="quiz10">
+                          <input type="radio" id="operator1" name="operator11" value="operator1">
                           <label for="male"> * </label><br>
-                          <input type="radio" id="female" name="gender" value="female">
+                          <input type="radio" id="operator2" name="operator22" value="operator2">
                           <label for="female"> - </script></label><br>
-                          <input type="radio" id="other" name="gender" value="other">
+                          <input type="radio" id="operator3" name="operator33" value="operator3">
                           <label for="other"> = </label><br>
-                          <input type="radio" id="other" name="gender" value="other">
+                          <input type="radio" id="operator4" name="operator44" value="operator4">
                           <label for="other"> X </label>
                           <div class="form-group row">
-                          <button type="submit" class="btn btn-success ">SUBMIT</button>
+                          <button type="submit" id="submit" class="btn btn-success ">SUBMIT</button>
                           </div>
                         </form>
         </div>
      </div>
-
-        
-
-                        
-
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="./js/script.js"></script>
 </html>
