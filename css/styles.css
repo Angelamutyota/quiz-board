@@ -1,0 +1,12 @@
+.jumbotron {
+   background-image: url(../images/quizpic.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   padding: 50px;
+   position: relative;
+   overflow-x: hidden;
+   color: white;
+   margin-top: 20px;
+}
